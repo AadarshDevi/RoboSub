@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <Console name="CONSOLE">
+            <PatternLayout pattern="%d [%t] %p %c - %m%n"/>
+        </Console>
+    </Appenders>
+
+    <Loggers>
+        <!-- Captures everything from TRACE level up to FATAL -->
+        <Root level="TRACE">
+            <AppenderRef ref="CONSOLE"/>
+        </Root>
+    </Loggers>
+</Configuration>
