@@ -11,12 +11,16 @@ public class OCVTest {
 
     class ImageTest {
 
-        // store an image
+        /**
+         * load an image
+         */
         public static Mat loadImage(String fileName) {
             return Imgcodecs.imread(fileName);
         }
 
-        // write an image
+        /**
+         * save an image
+         */
         public static void saveImage(Mat image, String fileName) {
             Imgcodecs.imwrite(fileName, image);
         }
