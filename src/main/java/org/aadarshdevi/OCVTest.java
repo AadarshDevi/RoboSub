@@ -2,14 +2,21 @@ package org.aadarshdevi;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.opencv.core.Mat;
+import org.opencv.core.*;
 import org.opencv.imgcodecs.Imgcodecs;
+import org.opencv.imgproc.Imgproc;
+import org.opencv.objdetect.CascadeClassifier;
+import org.opencv.objdetect.Objdetect;
+
+import java.net.URISyntaxException;
+import java.net.URL;
+import java.nio.file.Paths;
 
 public class OCVTest {
 
     public static final Logger logger = LogManager.getLogger(OCVTest.class);
 
-    class ImageTest {
+    static class ImageTest {
 
         /**
          * load an image
