@@ -14,7 +14,7 @@ public class Launcher {
         logger.info("Project Running");
 
         OpenCV.loadLocally();
-        logger.info("OpenCV Initialized");
+        logger.info("OpenPNP Initialized");
 
         // save and load image
         /*
