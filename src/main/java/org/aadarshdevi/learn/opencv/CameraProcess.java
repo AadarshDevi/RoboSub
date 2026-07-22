@@ -50,6 +50,7 @@ public class CameraProcess {
         stage.show();
     }
 
+    @SuppressWarnings("unused")
     public Image captureImage() {
         mat.release();
         videoCapture.read(mat);
