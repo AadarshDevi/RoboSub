@@ -2,7 +2,7 @@ package org.aadarshdevi;
 
 import javafx.application.Platform;
 import nu.pattern.OpenCV;
-import org.aadarshdevi.learn.CameraProcess;
+import org.aadarshdevi.opencv.CameraProcess;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
