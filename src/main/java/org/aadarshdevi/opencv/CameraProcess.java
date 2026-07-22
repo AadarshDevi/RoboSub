@@ -81,7 +81,12 @@ public class CameraProcess {
                 lastUpdate = now;
 
                 try {
-                    imageView.setImage(faceDetectImage());
+                    Image image = faceDetectImage();
+
+                    if (image != null) {
+                        imageView.setImage(image);
+                    }
+
                 } catch (URISyntaxException e) {
                     throw new RuntimeException(e);
                 }
