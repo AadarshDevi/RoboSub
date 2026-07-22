@@ -1,4 +1,4 @@
-package org.aadarshdevi.learn;
+package org.aadarshdevi.opencv;
 
 import javafx.animation.AnimationTimer;
 import javafx.scene.Scene;
