@@ -28,10 +28,15 @@ public class ImageRunner {
         Platform.startup(() -> {
             // Put any code that creates JavaFX components (like Scene) in here
             CameraProcess cameraProcess = new CameraProcess();
-            cameraProcess.displayImage(cameraProcess.captureImage());
+            cameraProcess.displayImage();
 
             logger.info("JavaFX Initialized");
         });
     }
 
 }
+
+/*
+Tutorials:
+1. https://www.baeldung.com/java-opencv
+ */
