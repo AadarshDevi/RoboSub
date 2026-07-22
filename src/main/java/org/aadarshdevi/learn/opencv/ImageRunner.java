@@ -1,4 +1,4 @@
-package org.aadarshdevi.opencv;
+package org.aadarshdevi.learn.opencv;
 
 import javafx.application.Platform;
 import nu.pattern.OpenCV;

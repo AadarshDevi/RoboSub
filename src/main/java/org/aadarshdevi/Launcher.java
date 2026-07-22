@@ -1,6 +1,6 @@
 package org.aadarshdevi;
 
-import org.aadarshdevi.opencv.ImageRunner;
+import org.aadarshdevi.learn.opencv.ImageRunner;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

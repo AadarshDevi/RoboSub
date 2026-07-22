@@ -5,8 +5,8 @@ module robosub {
     requires org.jetbrains.annotations;
     requires static lombok;
 
-    opens org.aadarshdevi.opencv to org.jetbrains.annotations;
+    opens org.aadarshdevi.learn.opencv to org.jetbrains.annotations;
 
-    exports org.aadarshdevi.opencv;
+    exports org.aadarshdevi.learn.opencv;
     exports org.aadarshdevi;
 }

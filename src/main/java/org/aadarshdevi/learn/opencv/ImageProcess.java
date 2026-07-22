@@ -1,4 +1,4 @@
-package org.aadarshdevi.opencv;
+package org.aadarshdevi.learn.opencv;
 
 import org.aadarshdevi.Launcher;
 import org.apache.logging.log4j.LogManager;
