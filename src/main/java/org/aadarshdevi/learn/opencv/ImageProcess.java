@@ -17,12 +17,15 @@ import java.nio.file.Paths;
 
 public class ImageProcess {
 
+    @SuppressWarnings("unused")
     public static final Logger logger = LogManager.getLogger(ImageProcess.class);
 
+    @SuppressWarnings("unused")
     public static void saveImage(Mat image, Path path) {
         Imgcodecs.imwrite(path.toAbsolutePath().toString(), image);
     }
 
+    @SuppressWarnings("unused")
     public static Mat loadImage(Path path) {
         return Imgcodecs.imread(path.toAbsolutePath().toString());
     }
