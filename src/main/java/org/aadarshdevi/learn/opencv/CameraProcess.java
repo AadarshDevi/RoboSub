@@ -53,6 +53,8 @@ public class CameraProcess {
     public Image captureImage() {
         mat.release();
         videoCapture.read(mat);
+        if (mat.empty())
+            return null;
         return mat2img(mat);
     }
 
@@ -63,7 +65,7 @@ public class CameraProcess {
         return new Image(byteArrayInputStream);
     }
 
-    public void displayImage(Image image) {
+    public void displayImage() {
         AnimationTimer animationTimer = new AnimationTimer() {
 
             // Set target FPS (e.g., 30 FPS = ~33.3ms interval, 15 FPS = ~66.6ms)
