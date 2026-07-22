@@ -7,7 +7,8 @@ import org.apache.logging.log4j.Logger;
 public class Launcher {
     public static final Logger logger = LogManager.getLogger(Launcher.class);
 
-    static void main(String[] args) {
+    static void main() {
+        logger.info("Running Launcher");
         ImageRunner.run();
     }
 
