@@ -31,7 +31,7 @@ public class CameraProcess {
     public Mat mat;
     @Getter
     @Setter
-    private long TARGET_FPS = 15;
+    private long TARGET_FPS = 30;
 
     public CameraProcess() {
         videoCapture = new VideoCapture(0);
