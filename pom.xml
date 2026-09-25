@@ -25,23 +25,23 @@
             <scope>compile</scope>
         </dependency>
 
-        <!-- Pixhawk -->
-        <!-- Source: https://mvnrepository.com/artifact/io.dronefleet.mavlink/mavlink -->
-        <dependency>
-            <groupId>io.dronefleet.mavlink</groupId>
-            <artifactId>mavlink</artifactId>
-            <version>1.1.11</version>
-            <scope>compile</scope>
-        </dependency>
+        <!--        &lt;!&ndash; Pixhawk &ndash;&gt;-->
+        <!--        &lt;!&ndash; Source: https://mvnrepository.com/artifact/io.dronefleet.mavlink/mavlink &ndash;&gt;-->
+        <!--        <dependency>-->
+        <!--            <groupId>io.dronefleet.mavlink</groupId>-->
+        <!--            <artifactId>mavlink</artifactId>-->
+        <!--            <version>1.1.11</version>-->
+        <!--            <scope>compile</scope>-->
+        <!--        </dependency>-->
 
-        <!-- ROS2 -->
-        <!-- Source: https://mvnrepository.com/artifact/io.github.lambdaprime/jros2client -->
-        <dependency>
-            <groupId>io.github.lambdaprime</groupId>
-            <artifactId>jros2client</artifactId>
-            <version>12.0</version>
-            <scope>compile</scope>
-        </dependency>
+        <!--        &lt;!&ndash; ROS2 &ndash;&gt;-->
+        <!--        &lt;!&ndash; Source: https://mvnrepository.com/artifact/io.github.lambdaprime/jros2client &ndash;&gt;-->
+        <!--        <dependency>-->
+        <!--            <groupId>io.github.lambdaprime</groupId>-->
+        <!--            <artifactId>jros2client</artifactId>-->
+        <!--            <version>12.0</version>-->
+        <!--            <scope>compile</scope>-->
+        <!--        </dependency>-->
 
         <!-- OpenCV -->
         <!-- Source: https://mvnrepository.com/artifact/org.openpnp/opencv -->

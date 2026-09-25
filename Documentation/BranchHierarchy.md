@@ -2,6 +2,5 @@
 
 ```
 master
-    |--- pixhawk-flight-controller
-        |--- mavlink-protocol
+    |-- robosub-java (Java Implementation)
 ```
