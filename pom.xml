@@ -16,6 +16,7 @@
 
     <dependencies>
 
+        <!-- YOLO Model -->
         <!-- Source: https://mvnrepository.com/artifact/com.microsoft.onnxruntime/onnxruntime -->
         <dependency>
             <groupId>com.microsoft.onnxruntime</groupId>
@@ -24,6 +25,7 @@
             <scope>compile</scope>
         </dependency>
 
+        <!-- Pixhawk -->
         <!-- Source: https://mvnrepository.com/artifact/io.dronefleet.mavlink/mavlink -->
         <dependency>
             <groupId>io.dronefleet.mavlink</groupId>
@@ -32,6 +34,7 @@
             <scope>compile</scope>
         </dependency>
 
+        <!-- ROS2 -->
         <!-- Source: https://mvnrepository.com/artifact/io.github.lambdaprime/jros2client -->
         <dependency>
             <groupId>io.github.lambdaprime</groupId>
@@ -40,6 +43,7 @@
             <scope>compile</scope>
         </dependency>
 
+        <!-- OpenCV -->
         <!-- Source: https://mvnrepository.com/artifact/org.openpnp/opencv -->
         <dependency>
             <groupId>org.openpnp</groupId>
@@ -48,6 +52,7 @@
             <scope>compile</scope>
         </dependency>
 
+        <!-- Logging -->
         <!-- Source: https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
@@ -56,6 +61,7 @@
             <scope>compile</scope>
         </dependency>
 
+        <!-- JavaFX Renderer -->
         <!-- Source: https://mvnrepository.com/artifact/org.openjfx/javafx-graphics -->
         <dependency>
             <groupId>org.openjfx</groupId>
@@ -64,6 +70,7 @@
             <scope>compile</scope>
         </dependency>
 
+        <!-- JavaFX Menus, Labels & Buttons -->
         <!-- Source: https://mvnrepository.com/artifact/org.openjfx/javafx-controls -->
         <dependency>
             <groupId>org.openjfx</groupId>
