@@ -1,9 +1,9 @@
 package org.aadarshdevi.learn.opencv;
 
+import lombok.NonNull;
 import org.aadarshdevi.Launcher;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.jetbrains.annotations.NotNull;
 import org.opencv.core.*;
 import org.opencv.imgcodecs.Imgcodecs;
 import org.opencv.imgproc.Imgproc;
@@ -30,7 +30,7 @@ public class ImageProcess {
         return Imgcodecs.imread(path.toAbsolutePath().toString());
     }
 
-    public static Mat detectFace(@NotNull Mat image) throws URISyntaxException {
+    public static Mat detectFace(@NonNull Mat image) throws URISyntaxException {
         MatOfRect facesDetected = new MatOfRect();
 
         CascadeClassifier cc = new CascadeClassifier();
