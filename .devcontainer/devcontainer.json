@@ -1,0 +1,17 @@
+{
+  //  Name of the dev container
+  "name": "RoboSub Python Dev Container",
+  // What image is being used to create the container
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  // args passed to docker
+  "runArgs": [
+    "--privileged",
+    "--network=host"
+  ],
+  // helps to make all connected devices visible to container when it is run
+  "mounts": [
+    "source=/dev,target=/dev,type=bind"
+  ]
+}
