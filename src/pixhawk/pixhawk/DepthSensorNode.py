@@ -1,5 +1,5 @@
 
 from rclpy import Node
 
-class DepthNode(Node):
+class DepthSensorNode(Node):
     pass
